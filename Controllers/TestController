@@ -1,0 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
+
+namespace docker_example.Controllers;
+
+public class TestController: ControllerBase{
+
+    [HttpGet]
+    public string Get()
+    {
+        return "TEST";
+    }
+}
